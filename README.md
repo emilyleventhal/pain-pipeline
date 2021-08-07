@@ -19,15 +19,19 @@ module load cudnn/7.6.5.32
 
 (1) Set up a conda environment: 
     Only do this once. Skip to step 2 if already done. 
+    ```bash
     conda create -n sleapgpu python=3.6
     source activate sleapgpu
     pip install -r sleap-requirements.txt --no-deps
+    ```
 
 (2) Activate environment 
+    ```bash
     source activate sleapgpu
     sleap-label &
-      GUI should pop up after a few seconds 
-    Drag the top bar of the GUI to make it fit on the FastX screen  
+    ```
+* GUI should pop up after a few seconds 
+* Drag the top bar of the GUI to make it fit on the FastX screen  
 
 ## Usage 
 ### Add a video  
