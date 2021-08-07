@@ -2,10 +2,10 @@
 
 # SOCIAL LEAP: https://sleap.ai/ 
 
-Paper on its first version - [LEAP](https://www.nature.com/articles/s41592-018-0234-5)
-Paper on [SLEAP](https://www.biorxiv.org/content/10.1101/2020.08.31.276246v1)
-SLEAP [Github](https://github.com/murthylab/sleap)
-Practice/example videos [here](https://upenn.app.box.com/s/oro330k43pnqskss4prdvdzvdtubuin5)
+* Paper on its first version - [LEAP](https://www.nature.com/articles/s41592-018-0234-5)
+* Paper on [SLEAP](https://www.biorxiv.org/content/10.1101/2020.08.31.276246v1)
+* SLEAP [Github](https://github.com/murthylab/sleap)
+* Practice/example videos [here](https://upenn.app.box.com/s/oro330k43pnqskss4prdvdzvdtubuin5)
 
 ## Set up
 Follow along with the tutorial found [here](https://sleap.ai/tutorials/tutorial.html)
@@ -52,7 +52,8 @@ module load cudnn/7.6.5.32
 * On top bar, press Predict → Run Training… 
 * Training/Inference Pipeline Type: single animal 
 * (meaning one animal is in the video) 
-* ```Sigma for nodes: 5.00
+* ```
+Sigma for nodes: 5.00
 Run Name Prefix: N/A
 Runs Folder: models 
 Tags: N/A
