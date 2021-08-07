@@ -43,7 +43,7 @@ pip install -r sleap-requirements.txt --no-deps
 * “ and name it right 
 ### Generate suggestions of frames to label
 * In the ‘Generate Suggestions’ tab: 
-* ![Alt text](readme-images/suggestions.png?raw=true "Title")
+* ![Alt text](readme-images/suggestions.png?raw=true "Title"){ width: 200px; }
 ### Label the 20 suggested frames  
 * In the ‘Labeling Suggestions’ tab, double click on the first row, which represents the first suggested frame 
 * On top bar, press Labels → Add Instance (or just ctrl + i) 
