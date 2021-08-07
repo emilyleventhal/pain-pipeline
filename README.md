@@ -88,4 +88,6 @@ Best Model: checked (the rest aren’t)
 # PAWS: https://github.com/crtwomey/paws 
 * Paper [here](https://elifesciences.org/articles/57258) 
 * [Methods paper](https://www.sciencedirect.com/science/article/pii/S2666166721000290) on setup 
-Run ```paws.R```
+
+## Usage
+* Run ```paws.R```
