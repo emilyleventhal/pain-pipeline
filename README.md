@@ -62,7 +62,7 @@ Best Model: checked (the rest aren’t)
 * Predict On: 
   * For the first training, do random frames or suggested frames
   * If you are happy with the predictions from the previous trainings, do entire video
-    * After this, skip to step 7 
+    * After this, skip to last step
     * Do not need to correct frames if entire video is predicted
 ### Correct the predicted labels 
 * Check back before the 5 hours runs out for the interactive job
@@ -73,18 +73,17 @@ Best Model: checked (the rest aren’t)
 * Yellow dots (the predictions) will appear on the frames the training was predicted on 
 * To find the frames that predictions are on, press Go → Next Suggestion or Next Labeled Frame 
 * If the toe was not predicted in the right place, double click it and move it to the correct place 
-* Once all the frames have corrected labels, run the training again (step 5)  
+* Once all the frames have corrected labels, run training again (previous step) 
 ### After predictions are made on the entire video, yellow dots will be on every frame 
 * File → Export Analysis HDF5… 
 
 
-PAWS: https://github.com/crtwomey/paws 
+# PAWS: https://github.com/crtwomey/paws 
+* Paper here 
+* Methods paper on setup 
+* Practice/example videos here
 
-Paper here 
-Methods paper on setup 
-Practice/example videos here
-
-In an R script: 
+```R
 ##### install paws #######
 install.packages("devtools") 
 devtools::install_github("crtwomey/paws", force=TRUE)
@@ -129,5 +128,5 @@ paw.features <- extract_features(x, y)
 scores <- pain_score(paw.features, strains="C57B6-")
 scores
 
-
+```
 
