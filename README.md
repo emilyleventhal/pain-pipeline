@@ -27,6 +27,7 @@ pip install -r sleap-requirements.txt --no-deps
 ```
 
 (2) Activate environment 
+
     ```bash
     source activate sleapgpu
     sleap-label &
