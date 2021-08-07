@@ -49,7 +49,7 @@ pip install -r sleap-requirements.txt --no-deps
 * On top bar, press Labels → Add Instance (or just ctrl + i) 
   * Labels that say “toe”, “left”, + “right” should show up on frame
   * Click and drag the label to the center toe, like so: 
-  * <img src="readme-images/toe.png" alt="toe" width="500"/>
+  * <img src="readme-images/toe.png" alt="toe" width="350"/>
   * Label left and right on the left and right of the chamber like so: 
   * <img src="readme-images/left-right.png" alt="left-right" width="500"/>
 * Press Next under ‘Labeling Suggestions’ and repeat the past instructions on the new, unlabeled frame
