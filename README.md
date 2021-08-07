@@ -8,8 +8,9 @@
 * Practice/example videos [here](https://upenn.app.box.com/s/oro330k43pnqskss4prdvdzvdtubuin5)
 
 ## Set up
-Follow along with the tutorial found [here](https://sleap.ai/tutorials/tutorial.html)
-First, create a new MATE session in https://rivanna-desktop.hpc.virginia.edu/ 
+Follow along with the tutorial found [here](https://sleap.ai/tutorials/tutorial.html). 
+
+First, create a new MATE session (for UVA Rivanna users, click [here](https://rivanna-desktop.hpc.virginia.edu/)) 
 ```bash
 # If you are running a training, request an interactive job for 5 hours: 
 ijob -A mgowda -t 05:00:00 -p gpu --gres=gpu:p100 
