@@ -79,9 +79,8 @@ Best Model: checked (the rest aren’t)
 
 
 # PAWS: https://github.com/crtwomey/paws 
-* Paper here 
-* Methods paper on setup 
-* Practice/example videos here
+* Paper [here](https://elifesciences.org/articles/57258) 
+* [Methods paper](https://www.sciencedirect.com/science/article/pii/S2666166721000290) on setup 
 
 ```R
 ##### install paws #######
