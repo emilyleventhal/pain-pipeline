@@ -19,11 +19,11 @@ module load cudnn/7.6.5.32
 
 (1) Set up a conda environment: 
     Only do this once. Skip to step 2 if already done. 
-    ```bash
-    conda create -n sleapgpu python=3.6
-    source activate sleapgpu
-    pip install -r sleap-requirements.txt --no-deps
-    ```
+```bash
+conda create -n sleapgpu python=3.6 
+source activate sleapgpu 
+pip install -r sleap-requirements.txt --no-deps
+```
 
 (2) Activate environment 
     ```bash
