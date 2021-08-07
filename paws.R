@@ -3,14 +3,13 @@ install.packages("devtools")
 devtools::install_github("crtwomey/paws", force=TRUE)
 
 ### set working directory + load package that reads hdf5 files
-setwd("path/to/folder") # folder where the hdf5 file is on your computer 
 library(rhdf5) 
-h5ls("path/to/hdf5 file") 
 library(paws)
 library(ggplot2)
 
-### read data with package ###
-mydata <- h5read("path/to/hdf5 file", “tracks”)
+### read data with hdf5 package ###
+h5ls("test-files/C57_left_right.v000.analysis.h5.h") # path to hdf5 file
+mydata <- h5read("test-files/C57_left_right.v000.analysis.h5.h", “tracks”)
 
 ### inspect data ### 
 dim(mydata)
@@ -23,7 +22,7 @@ right_x <- mydata[,3,,1][1]
 
 width_pixels = right_x - left_x 
 
-width_mm = 115 # will depend on chamber we use 
+width_mm = 115 # width of chamber in mm, will depend on chamber we use 
 
 conversion = width_mm / width_pixels
  
