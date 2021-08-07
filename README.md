@@ -52,12 +52,13 @@ module load cudnn/7.6.5.32
 * On top bar, press Predict → Run Training… 
 * Training/Inference Pipeline Type: single animal 
 * (meaning one animal is in the video) 
-* ```
+```
 Sigma for nodes: 5.00
 Run Name Prefix: N/A
 Runs Folder: models 
 Tags: N/A
-Best Model: checked (the rest aren’t) ```
+Best Model: checked (the rest aren’t) 
+```
 * Predict On: 
   * For the first training, do random frames or suggested frames
   * If you are happy with the predictions from the previous trainings, do entire video
