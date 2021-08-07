@@ -30,16 +30,16 @@ module load cudnn/7.6.5.32
     Drag the top bar of the GUI to make it fit on the FastX screen  
 
 ## Usage 
-(1) Add a video  
+### Add a video  
 * File → add videos (mp4, avi, h5 format) 
-(2) Create the skeleton of body parts 
+### Create the skeleton of body parts 
 * In the ‘Skeleton’ tab on the right, click New Node
 * Double click new_part and name it toe
 * “ and name it left 
 * “ and name it right 
-(3) Generate suggestions of frames to label
+### Generate suggestions of frames to label
 * In the ‘Generate Suggestions’ tab: 
-(4) Label the 20 suggested frames  
+### Label the 20 suggested frames  
 * In the ‘Labeling Suggestions’ tab, double click on the first row, which represents the first suggested frame 
 * On top bar, press Labels → Add Instance (or just ctrl + i) 
   * Labels that say “toe”, “left”, + “right” should show up on frame
@@ -48,7 +48,7 @@ module load cudnn/7.6.5.32
 * Press Next under ‘Labeling Suggestions’ and repeat the past instructions on the new, unlabeled frame
 * Continue until all 20 frames are labeled 
 * File → Save
-(5) Run training 
+### Run training 
 * On top bar, press Predict → Run Training… 
 * Training/Inference Pipeline Type: single animal 
 * (meaning one animal is in the video) 
@@ -62,7 +62,7 @@ Best Model: checked (the rest aren’t) ```
   * If you are happy with the predictions from the previous trainings, do entire video
     * After this, skip to step 7 
     * Do not need to correct frames if entire video is predicted
-(6) Correct the predicted labels 
+### Correct the predicted labels 
 * Check back before the 5 hours runs out for the interactive job
   * If it’s still running, you should see a graph
   * If it’s done predicting, you will get a message telling you how many frames it was predicted on 
@@ -72,7 +72,7 @@ Best Model: checked (the rest aren’t) ```
 * To find the frames that predictions are on, press Go → Next Suggestion or Next Labeled Frame 
 * If the toe was not predicted in the right place, double click it and move it to the correct place 
 * Once all the frames have corrected labels, run the training again (step 5)  
-(7) After predictions are made on the entire video, yellow dots will be on every frame 
+### After predictions are made on the entire video, yellow dots will be on every frame 
 * File → Export Analysis HDF5… 
 
 
