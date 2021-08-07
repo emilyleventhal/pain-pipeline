@@ -28,10 +28,10 @@ pip install -r sleap-requirements.txt --no-deps
 
 (2) Activate environment 
 
-    ```bash
-    source activate sleapgpu
-    sleap-label &
-    ```
+```bash
+source activate sleapgpu
+sleap-label &
+```
 * GUI should pop up after a few seconds 
 * Drag the top bar of the GUI to make it fit on the FastX screen  
 
