@@ -45,7 +45,9 @@ module load cudnn/7.6.5.32
 * On top bar, press Labels → Add Instance (or just ctrl + i) 
   * Labels that say “toe”, “left”, + “right” should show up on frame
   * Click and drag the label to the center toe, like so: 
+  * ![Alt text](readme-images/toe.png?raw=true "Title")
   * Label left and right on the left and right of the chamber like so: 
+  * ![Alt text](readme-images/left-right.png?raw=true "Title")
 * Press Next under ‘Labeling Suggestions’ and repeat the past instructions on the new, unlabeled frame
 * Continue until all 20 frames are labeled 
 * File → Save
