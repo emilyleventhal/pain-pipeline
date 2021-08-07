@@ -12,8 +12,8 @@ Follow along with the tutorial found [here](https://sleap.ai/tutorials/tutorial.
 First, create a new MATE session in https://rivanna-desktop.hpc.virginia.edu/ 
 ```bash
 # If you are running a training, request an interactive job for 5 hours: 
-ijob -A mgowda -t 05:00:00 -p gpu --gres=gpu:p100 \n
-module load anaconda \n
+ijob -A mgowda -t 05:00:00 -p gpu --gres=gpu:p100 \
+module load anaconda \
 module load cudnn/7.6.5.32
 ```
 
